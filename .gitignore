@@ -1,0 +1,89 @@
+# Business Plan Repository .gitignore
+
+# Sensitive Business Information
+*.confidential
+*_private.*
+*_confidential.*
+secrets/
+private/
+
+# Financial Data (uncomment if you want to keep financial data private)
+# docs/financials/*.xlsx
+# docs/financials/*.csv
+# *.xls
+# *.xlsm
+
+# Personal Information
+# Uncomment these if you want to keep certain sections private
+# docs/sections/*personal*
+# docs/sections/*proprietary*
+
+# Backup Files
+*.bak
+*.backup
+*~
+*.swp
+*.swo
+*.tmp
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.log
+*.cache
+temp/
+tmp/
+
+# Compiled Documents (if using LaTeX, etc.)
+*.aux
+*.out
+*.toc
+*.pdf.tmp
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Exports (uncomment if you don't want to track exports)
+# exports/
+# *.pdf
+# *.docx
+# *.pptx
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Node modules (if using any tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python (if using any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
